@@ -1,4 +1,4 @@
-# MITRE ATT&CK Technique Reference — Common Network & Windows Log Detections
+# MITRE ATT&CK Technique Reference - Common Network & Windows Log Detections
 
 ## Overview
 This is a reference document mapping common security log events (Windows Security logs, firewall/network logs) to their corresponding MITRE ATT&CK techniques. Built while learning Splunk and studying the ATT&CK framework, as a foundation for future detection engineering work.
@@ -22,7 +22,7 @@ This is a **learning/reference project**, documenting technique mappings and det
 | Windows Application Log | Repeated crash of security-related service | Impair Defenses | T1562 | Defense Evasion |
 
 ## Why this matters
-Mapping raw log events to ATT&CK techniques is the core skill behind writing real SOC detections — it connects "what the log shows" to "what an attacker is actually doing." This table represents the reasoning I'd apply before writing detection logic in Splunk (SPL) or building a SOAR playbook.
+Mapping raw log events to ATT&CK techniques is the core skill behind writing real SOC detections - it connects "what the log shows" to "what an attacker is actually doing." This table represents the reasoning I'd apply before writing detection logic in Splunk (SPL) or building a SOAR playbook.
 
 ## Next steps
 - Validate these mappings against real log data (Windows Security logs, FortiGate CSV samples)
